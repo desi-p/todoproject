@@ -1,5 +1,5 @@
 from django.urls import URLPattern, path 
-from . import views 
+from todoapp import views 
 
 urlpatterns = [
     path('', views.alltodos, name = 'alltodos'),

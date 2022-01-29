@@ -1,4 +1,3 @@
-from turtle import update
 from django.shortcuts import render, redirect
 from .models import Mytodo
 from .forms import TodoForm
